@@ -15,7 +15,7 @@ class QuizCardWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.all(16),
+      padding: EdgeInsets.all(15),
       decoration: BoxDecoration(
           border: Border.fromBorderSide(BorderSide(color: AppColors.border)),
           color: AppColors.white,
@@ -24,19 +24,19 @@ class QuizCardWidget extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Container(
-            height: 40,
-            width: 40,
+            height: 35,
+            width: 35,
             child: Image.asset(AppImages.blocks),
           ),
           SizedBox(
-            height: 24,
+            height: 15,
           ),
           Text(
             title,
             style: AppTextStyles.heading15,
           ),
           SizedBox(
-            height: 24,
+            height: 15,
           ),
           Row(
             children: [
